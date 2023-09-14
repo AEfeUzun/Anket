@@ -1,0 +1,32 @@
+.ank_navbar
+{
+    display: flex;
+    flex-direction:row ;
+    background-color: transparent;
+    align-items: center;
+}
+
+.ank_header
+{
+    font-size: 25px;
+    margin-left: 4%;
+}
+
+.ank_navbar .nav_list
+{
+    display: flex;
+    list-style: none;
+}
+.ank_navbar .nav_list .nav_item
+{
+    padding: 1rem; ;
+    margin-right: 1rem;
+    align-items: center;
+    
+}
+
+.ank_navbar .nav_list .nav_item:hover
+{
+    background-color: transparent;
+   
+}
